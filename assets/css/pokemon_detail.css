@@ -1,0 +1,185 @@
+body {
+      margin: 0px;
+      background-color: #77c850;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 50px;
+}
+
+header {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 1.5rem;
+}
+
+header img {
+      height: 14rem;
+      z-index: 1000;
+}
+
+#header_pokemon {
+      width: 100%;
+      display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#header_pokemon img {
+      transform: rotate(180deg);
+      width: 1.9rem;
+      height: 1.9rem;
+}
+
+#header_pokemon p {
+      font-size: 1.5rem;
+      font-weight: 800;
+      margin: 0rem;
+}
+
+#struture {
+      width: 880px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+}
+
+section {
+      background-color: white;
+      width: 80%;
+      border-radius: 1.5rem;
+      padding: 2.4rem 2rem 2rem 2rem;
+      margin-top: -3rem;
+}
+
+#type {
+      display: flex;
+      justify-content: center;
+}
+
+#type p {
+      background-color: #77c850;
+      font-size: 1.2rem;
+      padding: 0.2rem 0.7rem 0.2rem 0.7rem;
+      font-weight: 600;
+      border-radius: 0.6rem;
+      margin: 1rem 12px 0px 12px;
+}
+
+section > p {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 1.3rem;
+      color: rgba(0, 0, 0, 0.4);
+      margin: 1.4rem 0rem 1.4rem 0rem;
+}
+
+#about {
+      display: flex;
+      justify-content: space-around;
+}
+
+#weight, #height {
+      border-right: 2px rgb(165, 165, 165) solid;
+}
+
+#height,#weight,#ability {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between
+}
+
+#height > p, #weight > p, #ability > p{
+      margin: 0rem;
+      color: rgba(0, 0, 0, 0.411);      
+}
+
+.pokemon_proportion {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+      font-size: 1.4rem;
+}
+
+#ability div p {
+      font-weight: 600;
+      font-size: 1.18rem;
+}
+
+.pokemon_proportion img {
+      margin-right: 2rem;
+      width: 20px;
+      height: 20px;
+}
+
+.pokemon_proportion p,
+#ability p,
+#base_stats {
+      margin: 0rem;
+}
+
+#ability div p {
+      margin-bottom: 10px;
+}
+
+#history {
+      font-size: large;
+      display: flex;
+      /* margin: 1rem 2.7rem 0rem 2.7rem; */
+      text-align: justify;
+}
+
+#grafic {
+      width: 100%;
+      display: flex;
+      margin-top: 10px;
+}
+
+#grafic > :nth-child(1){
+      padding-right: 14px;
+      margin-right: 14px;
+      border-right: 2px rgb(165, 165, 165) solid;
+}
+
+#grafic div p {
+      margin-top: 0rem;
+}
+
+#grafic > :nth-child(2) :last-child,
+#grafic > :nth-child(1) :last-child {
+      margin-bottom: 0px;
+}
+
+#grafic > :nth-child(3) {
+      margin-left: 1rem;
+      display: flex;
+      flex-direction: column;
+    justify-content: space-between;
+}
+
+.progress_bar{
+      width: 520px;
+      height: 18px;
+      padding: 2px;
+      background-color: #ccc;
+      border-radius: 10px;
+      display: flex;
+}
+    
+.progress_bar::before{
+      content: "";
+      width: 70%;
+      border-radius: 10px;
+      background-color: red;
+}
